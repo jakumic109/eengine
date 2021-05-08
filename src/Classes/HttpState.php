@@ -52,7 +52,7 @@ class HttpState implements State{
         return (string) $this->orderType;
     }
     
-    public function create()
+    public static function create()
     {
         $result = new HttpState();
         $result->setVariables();
